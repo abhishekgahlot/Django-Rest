@@ -23,7 +23,7 @@ I am using AES 128 bit for encrypting, probably i can also use Hmac with customi
 and setting it to expire after some time. But Using AES here with username and secret key will
 allow us to track time even without saving to database. Still Hmac with random time is more secure.
 
-Key should be 32bits and AES mode is CBC not EBC
+Key should be 32bits and AES mode is CBC not ECB
 """
 
 
